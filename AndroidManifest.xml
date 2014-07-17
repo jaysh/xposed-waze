@@ -16,7 +16,7 @@
             android:value="true" />
         <meta-data
             android:name="xposeddescription"
-            android:value="Modifications to the Waze maps applications. Currently audio emphasis/boost." />
+            android:value="Modifications to the Waze maps application. Currently audio emphasis/boost." />
         <meta-data
             android:name="xposedminversion"
             android:value="30" />
