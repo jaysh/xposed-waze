@@ -6,7 +6,7 @@ Utilising the [Xposed framework](http://repo.xposed.info/module/de.robv.android.
 Audio Emphasis
 --------------
 
-I'll play music into my car using PowerAmp (which, in turn, passes through a FM Transmitter) which is great, because Waze will automatically quieten the music ([ake audio focus](http://developer.android.com/training/managing-audio/audio-focus.html)) when playing its messages. Unfortunately, they are not loud enough for me.
+I'll play music into my car using PowerAmp (which, in turn, passes through a FM Transmitter) which is great, because Waze will automatically quieten the music ([ake audio focus](http://developer.android.com/training/managing-audio/audio-focus.html)) when playing its messages. Unfortunately, they are not loud enough for me (when compared to the music).
 
 This module is designed, very simply, to raise the volume of the music stream (which is the one PowerAmp and Waze play through) to maximum when Waze is saying something, and reducing it back the original level when it is done.
 
